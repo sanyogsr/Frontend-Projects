@@ -54,7 +54,7 @@ const Page1 = () => {
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-             Coming Soon <span aria-hidden="true"> &rarr; </span>
+             Coming Soon <span aria-hidden="true">  </span>
             </a>
           </div>
         </nav>
@@ -130,7 +130,7 @@ const Page1 = () => {
               Wait a bit i'm coming.{" "}
               <a href="#" className="font-semibold text-indigo-600">
                 <span aria-hidden="true" className="absollute inset-0" />
-                Asap <span aria-hidden="true"> &rarr; </span>
+                Asap <span aria-hidden="true">  </span>
               </a>
             </div>
           </div>
