@@ -18,7 +18,7 @@ const Page1 = () => {
       <header className="absolute inset-x-5 top-0 z-50">
         <nav
           aria-label="Global"
-          className="flex items-center justify-between p-6 lg:px-8"
+          className="flex items-center justify-between md:justify-center  p-6 lg:px-8"
         >
           {/* <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
@@ -29,15 +29,15 @@ const Page1 = () => {
                 className="h-8 w-auto"
               />
             </a>
-          </div> */}
-          {/* <div className="flex lg:hidden">
+          </div>  */}
+        {/* <div className="flex lg:hidden">
             <button type="button" onClick={() => setMobileOpen(true)}>
               <span className="sr-only">Open Main Menu</span>
               <Bars3Icon aria-hidden="true" className="h-6 w-6" />
             </button>
           </div> */}
           <div className="">
-            {/* {navigation.map((item) => (
+        {/* {navigation.map((item) => (
               <a
                 href={item.href}
                 key={item.name}
@@ -45,7 +45,7 @@ const Page1 = () => {
               >
                 {item.name}
               </a>
-            ))} */}
+            ))}  */}
           <h1 className="text-4xl font-semibold">Construction going on...</h1>
 
           </div>
@@ -140,8 +140,8 @@ const Page1 = () => {
              IndieSkool.xyz
             </h1>
             <p className="mt-6 text-lg leading-8  text-gray-600">
-            An Platform where you can learn from your favourite Indiehacker ,    
-            I'm dropping it on <span className="text-2xl font-bold">20 August,2024</span>
+            A platform where you can learn from your favourite Indiehacker,    
+            I&apos;m dropping it on <span className="text-2xl font-bold">20 August, 2024</span>
             </p>
 
             <div className="mt-10 flex items-center justify-center gap-x-6">
