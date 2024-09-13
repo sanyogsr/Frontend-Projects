@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    color: white;
+}
+
+body {
+    overflow: hidden;
+}
+
+.topbar {
+    /* padding: 10px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    justify-content: space-between;
+
+}
+
+.topbar-left {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.topbar-center {
+    display: flex;
+    font-family: sans-serif;
+
+}
+
+.topbar-input {
+    width: 25rem;
+    border: 0;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+}
+
+.line-container {
+    height: 18px;
+    width: 24px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    transition: transform 1s ease, opacity 0.5s ease;
+    transform-origin: left;
+
+}
+
+.menu {
+    width: 200px;
+    padding: 0 10px;
+    height: calc(100vh - 50px);
+    position: absolute;
+    right:-250px;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    top: 50px;
+    transition: all 1s ease;
+
+}
+
+.menu-top {
+    flex: 0.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+margin-top: 20px;
+
+
+
+}
+
+.menu-input {
+    width: 85%;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 8px 5px;
+    border-radius: 25px;
+
+   
+}
+
+.menu-center {
+margin-top: 20px;
+margin-left: 20px;
+display: flex;
+flex-direction: column;
+flex: 0.8;
+
+
+
+}
+.menu-item{
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+
+     
+
+}
+
+.menu-bottom{
+    display: flex;
+    flex: 0.1;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-bottom-user{
+    display: flex;
+  align-items: center;    
+}
+
+.menu img{
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right:10px
+}
+
+.menu-bottom-user span {
+    font-size: 14px;
+}
+
+
+.menu.active{
+    transform: translateX(-250px);
+}
+
+.line-container.active .line-1{
+    transform: rotate(45deg);
+
+}
+.line-container.active .line-2{
+    opacity: 0;
+}
+
+.line-container.active .line-3{
+    transform: rotate(-45deg);
+}
